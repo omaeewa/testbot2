@@ -18,6 +18,11 @@
             <artifactId>telegrambots</artifactId>
             <version>5.3.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>3.0.1</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -30,7 +35,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>Main</mainClass>
+                            <mainClass>com.testbot.MyBot</mainClass>
                             <name>testbot</name>
                         </program>
                     </programs>
