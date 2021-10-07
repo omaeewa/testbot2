@@ -1,0 +1,7 @@
+com\testbot\store\HashMapStore.class
+com\testbot\store\BaseStore.class
+com\testbot\core\CoreBot.class
+com\testbot\service\ButtonService.class
+com\testbot\MyBot.class
+com\testbot\constant\VarConstant.class
+com\testbot\service\SendMessageOperationService.class
